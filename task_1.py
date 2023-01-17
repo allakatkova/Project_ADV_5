@@ -3,7 +3,6 @@ from datetime import datetime
 
 
 def logger(old_function):
-    ...
 
     def new_function(*args, **kwargs):
         date_time = datetime.now()
